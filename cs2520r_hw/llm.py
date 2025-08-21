@@ -253,6 +253,7 @@ def pick_generate():
 
 default_provider, default_generate = pick_generate()
 
+generate = default_generate
 
 def extract_code_blocks(response: str) -> List[str]:
     """Extract code blocks from LLM response, removing markdown and explanations."""
